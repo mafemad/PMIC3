@@ -1,0 +1,27 @@
+{% extends "base.html"%}
+{% block title %} contato {% endblock %}
+{%block content%}
+   
+
+    
+        <!-- corpo texto -->
+    <div class="texto">
+            <h2>Entre em contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at incidunt earum, esse saepe, quo architecto in distinctio obcaecati quidem, quod amet eaque dolorum totam maxime ea non commodi molestiae.</p>
+        
+    </div>
+        <hr>  
+    <form class="texto" method="post" action="/contato">
+    
+
+        <label for="email">seu email:</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="assunto">assunto:</label><br>
+        <input type="text" name="assunto" id="assunto"><br>
+        <label for="descricao">Descrição:</label><br>
+        <textarea name="descricao" id="descricao" cols="25" rows="3"></textarea><br>
+        <input type="submit" name="enviar" id="enviar">
+    
+    </form>
+   
+    {% endblock %}
