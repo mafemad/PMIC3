@@ -10,30 +10,32 @@
     
 </head>
 <body>
-    <table >
-        <thead>
-    
-            <tr>
-                <th>E-mail</th>
-                <th>Assunto</th>
-                <th>Descrição</th>
-    
-            </tr>
-        </thead>
+    <div class="tabela">
+        <table >
+            <thead>
         
-        {% for user in userDetails %}
+                <tr>
+                    <th>E-mail</th>
+                    <th>Assunto</th>
+                    <th>Descrição</th>
         
-        <tbody>
-            <tr>
-                <td>{{user[0]}}</td>
-                <td>{{user[1]}}</td>
-                <td>{{user[2]}}</td>
-            </tr>
-        </tbody>
-       
-    
-        {% endfor %}
-    </table>
+                </tr>
+            </thead>
+        
+            {% for user in userDetails %}
+        
+            <tbody>
+                <tr>
+                    <td>{{user[0]}}</td>
+                    <td>{{user[1]}}</td>
+                    <td>{{user[2]}}</td>
+                </tr>
+            </tbody>
+        
+        
+            {% endfor %}
+        </table>
+    </div>
 
     
 </body>
