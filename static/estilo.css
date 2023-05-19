@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
- .header{
+.header{
     
     width: 80%;
     display: flex;
@@ -16,18 +16,18 @@
     
 
  }
- .capa{
+.capa{
     display: flex;
     margin: auto;
     align-items: center;
-    margin-top: 2.5%;
     justify-content: center;
     
  }
 
 footer{
-    margin: auto;
+    margin-top: 5%;
     text-align: center;
+    font-size: large;
 }
 
 
@@ -46,7 +46,7 @@ table{
 }
 
 th{
-    background-color: rgb(14, 14, 179);
+    background-color: rgb(31, 122, 207);
     color: white;
     border: black;
 }
@@ -55,4 +55,26 @@ th{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 5%;
+}
+
+p{
+    font-size: large
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(19, 45, 190);
+}
+
+.users{
+    text-decoration: none;
+    color: black;
+}
+
+a.users:visited{
+    color:black ;
 }

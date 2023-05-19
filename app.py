@@ -49,7 +49,7 @@ def usuarios():
     if users > 0:
         userDetails = cur.fetchall()
 
-        return render_template("usuarios.html", userDetails=userDetails)
+        return render_template("usuarios.html", userDetails=userDetails, background= url_for('static', filename='imagens/fundo2.png'))
 
 
 app.run(debug=True)

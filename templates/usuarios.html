@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuários</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='normalize.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='estilo.css')}}">
-    
-</head>
-<body>
-    <div class="tabela">
+    {% extends "base.html"%}
+    {% block title %} Usuarios {% endblock %}
+    {%block content%}
+
+  <div class="texto">
+    <h2>Registros</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus eveniet reprehenderit ducimus at, aspernatur doloremque inventore. Voluptate dolores beatae sint, quia illum reprehenderit earum numquam nulla debitis possimus voluptatibus!</p>
+  </div>
+  <hr>
+  <div class="tabela">
         <table >
             <thead>
         
@@ -37,6 +34,4 @@
         </table>
     </div>
 
-    
-</body>
-</html>
+{% endblock %}
